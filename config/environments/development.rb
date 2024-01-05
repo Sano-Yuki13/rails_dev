@@ -81,4 +81,5 @@ Rails.application.configure do
   config.hosts << pf_host
 
   config.action_cable.allowed_request_origins = ["https://#{pf_host}"]
+  config.hosts << "00af6bd21a2448c4a3a6906618a0d93a.vfs.cloud9.ap-northeast-1.amazonaws.com"
 end
